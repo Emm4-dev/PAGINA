@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(180deg, #000 0%, #666 100%);
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.content-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text{
+    font-family: 'Langar', sans-serif;
+    font-size: 40px;
+    color: #FFF;
+}
+
+.logo svg{
+    width: 80px;
+    color: #FFF;
+}
+
+.content-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+    font-family: "Maven Pro";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+a:hover{
+    color: #A5F102;
+}
+
+.content-main{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-form{
+    width: 450px;
+    height: 370px;
+    background: inherit;
+    border: 0.5px solid black;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+form{
+    display: flex;
+    align-items: ceter;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.title-form{
+    color: #A5F102;
+    font-family: 'Maven Pro';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+label{
+    color: #A5F102;
+    font-family: "Maven Pro";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.input-form{
+    width: 395px;
+    height: 25px;
+    border-radius: 8px;
+    padding: 5px;
+    background: #FFF;
+}
+
+input::placeholder{
+    color: black;
+    opacity: 30%;
+}
+
+.content-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.button-form{
+    width: 143px;
+    height: 37px;
+    color: #000;
+    font-family: "Maven Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 16px;
+    background: #A5F102;
+}
+
+.button-form:hover{
+    background: #FFF;
+}
